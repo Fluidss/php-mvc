@@ -1,0 +1,12 @@
+{
+    "name": "minusamix/test3",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
