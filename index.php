@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php';
 $router = new \Bramus\Router\Router();
 
 $router->get('/', function () {
-    echo 'Главная страница';
+    echo 'Main page';
 });
 $router->get('/about', 'App\Controllers\About@index');
 $router->get('/about/page/([1-9]+)', 'App\Controllers\About@page');
